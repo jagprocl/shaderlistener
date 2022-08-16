@@ -1,5 +1,5 @@
 //Imports
-import TWEEN from "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.5.0/dist/tween.esm.js";
+import TWEEN from "//cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.5.0/dist/tween.esm.js";
 
 //To create a scene we need 3 things: scene, camera, renderer.
 const scene = new THREE.Scene();
