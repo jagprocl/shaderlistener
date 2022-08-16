@@ -4,7 +4,7 @@ import TWEEN from "https://cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.5.0/dist/tw
 //To create a scene we need 3 things: scene, camera, renderer.
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
-  75,
+  30,
   window.innerWidth / window.innerHeight,
   0.1,
   1000
@@ -157,12 +157,12 @@ void main()
   uniforms: {
     uTime: { value: 0 },
     uBigWavesElevation: { value: 0.2 },
-    uBigWavesFrequency: { value: new THREE.Vector2(4, 1.5) },
-    uBigWavesSpeed: { value: 3.0 },
+    uBigWavesFrequency: { value: new THREE.Vector2(4, 0.5) },
+    uBigWavesSpeed: { value: 0.1 },
     uColorOffset: { value: 0.08 },
     uColorMultiplier: { value: 2 },
-    uDepthColor: { value: new THREE.Color("#12c2e9") },
-    uSurfaceColor: { value: new THREE.Color("#c471ed") },
+    uDepthColor: { value: new THREE.Color("#8A2387") },
+    uSurfaceColor: { value: new THREE.Color("#F27121") },
   },
 });
 
