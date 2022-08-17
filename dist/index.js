@@ -1,11 +1,11 @@
 //Imports
-import * as THREE from "//cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js";
+import * as THREE from "https://unpkg.com/three@0.127.0/build/three.module.js";
 import TWEEN from "//cdn.jsdelivr.net/npm/@tweenjs/tween.js@18.5.0/dist/tween.esm.js";
 
 //To create a scene we need 3 things: scene, camera, renderer.
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
-  30,
+  50,
   window.innerWidth / window.innerHeight,
   0.1,
   1000

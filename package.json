@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "deploy":"gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/jagprocl/shaderlistener#readme",
   "dependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^3.2.0"
   }
 }
